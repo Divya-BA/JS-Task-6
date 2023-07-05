@@ -15,6 +15,7 @@ var b=new Movie("Minions", "Universal Pictures", "PG");
 b) The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided.
 answer:
 
+
 class Movie
 {
   constructor(title,studio,rating="PG")
