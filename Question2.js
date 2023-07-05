@@ -1,7 +1,7 @@
 //class circle
 class Circle
 {
-  constructor(Radius,Color)
+  constructor(Radius=1.0,Color="red")
   {
     this.Radius=Radius;
     this.Color=Color;
@@ -35,4 +35,4 @@ class Circle
     return 2 * Math.PI * this.Radius;
   }
 }
-var a=new Circle(1.0,"Red");
+
